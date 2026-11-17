@@ -4,6 +4,8 @@ IP Geolocation Lookup Script using ip-api.com
 Processes a list of IP addresses and saves results to CSV
 """
 
+import utils.transport
+import utils.session
 import csv
 import time
 import requests
